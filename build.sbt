@@ -17,6 +17,12 @@ lazy val SlackFreeSpeech = (project in file("."))
       // HTTP
       "net.databinder.dispatch" %% "dispatch-core" % "0.11.2",
 
+      // WebSockets
+      "io.backchat.hookup" %% "hookup" % "0.3.0",
+
+      // JSON
+      "org.json4s" %% "json4s-native" % "3.2.11",
+
       // Testing
       "org.specs2" %% "specs2" % "2.4" % "test",
 
