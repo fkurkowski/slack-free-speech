@@ -21,6 +21,6 @@ lazy val SlackFreeSpeech = (project in file("."))
       "org.specs2" %% "specs2" % "2.4" % "test",
 
       // TypeSafe Config
-      "org.typesafe" %% "config" % "1.3.0"
+      "com.typesafe" % "config" % "1.3.0"
     )
   )
