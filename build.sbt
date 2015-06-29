@@ -18,6 +18,9 @@ lazy val SlackFreeSpeech = (project in file("."))
       "net.databinder.dispatch" %% "dispatch-core" % "0.11.2",
 
       // Testing
-      "org.specs2" %% "specs2" % "2.4" % "test"
+      "org.specs2" %% "specs2" % "2.4" % "test",
+
+      // TypeSafe Config
+      "org.typesafe" %% "config" % "1.3.0"
     )
   )
