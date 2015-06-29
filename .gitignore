@@ -1,5 +1,8 @@
 # Created by https://www.gitignore.io
 
+### Config ###
+src/main/resources/application.conf
+
 ### Scala ###
 *.class
 *.log
