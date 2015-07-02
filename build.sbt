@@ -9,6 +9,7 @@ lazy val SlackFreeSpeech = (project in file("."))
   .settings(commonSettings: _*)
   .settings(
     name := "slack-free-speech",
+    resolvers += Resolver.sonatypeRepo("snapshots"),
     libraryDependencies ++= Seq(
       // Logging
       "com.typesafe.scala-logging" %% "scala-logging" % "3.1.0",
@@ -18,7 +19,7 @@ lazy val SlackFreeSpeech = (project in file("."))
       "net.databinder.dispatch" %% "dispatch-core" % "0.11.2",
 
       // WebSockets
-      "io.backchat.hookup" %% "hookup" % "0.3.0",
+      "eu.piotrbuda" % "scalawebsocket_2.10" % "0.1.1",
 
       // JSON
       "org.json4s" %% "json4s-native" % "3.2.11",
